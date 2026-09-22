@@ -9,6 +9,10 @@ revealed as a top-to-bottom line scan.
 Type any text, pick the paper and ink colour, drag size and density. No build step, no
 dependencies, no network calls — one HTML file.
 
+**Try it live and read more:** <https://librarycompass.com/bitcoin-pointcloud/> — project
+page with an embedded live demo, the controls explained, and ideas for contributions.
+GitHub Pages: <https://joemartinbtc.github.io/bitcoin-pointcloud/>
+
 ## Run it
 
 Open `index.html` in a browser, or serve the folder statically:
@@ -45,6 +49,14 @@ animation and shows the finished drawing.
    the background keeps its density instead of thinning out where the letters are.
 4. Springs are integrated per frame; when frames arrive far apart the scene snaps to the
    state the timeline asks for instead of falling behind.
+
+## Contributing
+
+This is a private hobby project and a starting point — build on it. Fork the repository,
+try an idea, send a pull request; an issue with a good idea counts too. Ideas nobody has
+built yet: save the picture as PNG or SVG, text and colours in the URL to share a picture
+as a link, record the animation, several lines and custom fonts, touch input, colour
+presets, live data such as the current block height as the text, an English panel.
 
 ## Credit
 
